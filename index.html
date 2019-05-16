@@ -1,0 +1,364 @@
+
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	
+	</head>
+
+	<body>
+		<nav id="navbar">
+		<header><h1><center>CSS Documentation</center></h1>
+		<ul id="nav-list">
+			<a href="#introduction" class="nav-link"><li>Introduction</li></a>
+			<a href="#What_you_should_already_know" class="nav-link" ><li>What you should already know</li></a>
+			<a href="#CSS_and_HTML" class="nav-link" ><li>CSS and HTML</li></a>
+			<a href="#CSS_Reference" class="nav-link" ><li>CSS Reference</li></a>
+
+			<a href="#Selector" class="nav-link" ><li>Selector</li></a>
+			<a href="#Functions" class="nav-link" ><li>Functions</li></a>
+			<a href="#Aural_Reference" class="nav-link" ><li>Aural Reference</li></a>
+			<a href="#Animatable" class="nav-link" ><li>Animatable</li></a>
+			<a href="#Color_Values" class="nav-link" ><li>Color Values</li></a>
+			<a href="#background" class="nav-link" ><li>Background</li></a>
+			<a href="#border" class="nav-link" ><li>border</li></a>
+			<a href="#CSS_color" class="nav-link" ><li>CSS color</li></a>
+			<a href="#Font_color" class="nav-link" ><li>Font color</li></a>
+			<a href="#Display" class="nav-link" ><li>Display</li></a>
+		</header>
+
+		</ul>
+		</nav>
+		<main id="main-doc">
+			<section class="main-section" id="introduction">
+			<header ><h1>Introduction</h1></header>
+			<article>
+			<p>
+			
+			Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
+			CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+			
+			</p>
+			<p>
+			
+			CSS is designed to enable the separation of presentation and content,including layout, colors, and fonts.
+			This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, 
+			enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file,
+			 and reduce complexity and repetition in the structural content. 
+			
+			</p>
+			</article>
+			
+			</section>
+			
+			<section class="main-section" id="What_you_should_already_know">
+			<header ><h1>What you should already know</h1></header>
+			<article>
+			<p>
+			
+			Before the development of CSS in 1996 by the World Wide Web Consortium (W3C), Web pages were extremely limited in both form and function. Early browsers presented a page as hypertext - plain text, images and links to other hypertext pages. There was no layout at all to speak of, merely paragraphs running across the page in a single column.
+
+
+			</p>
+			<p>
+			
+			CSS allowed several innovations to webpage layout, such as the ability to:</p>
+			<ul id="inner-list">
+
+					<li>	Specify fonts other than the default for the browser </li>
+					<li>	Specify color and size of text and links </li>
+					<li>	Apply colors to backgrounds</li>
+					<li>	Contain webpage elements in boxes and float those boxes to specific positions on the page</li>
+			</ul>
+			
+			</article>
+			
+			</section>
+			
+			<section class="main-section" id="CSS_and_HTML">
+			<header ><h1>CSS and HTML</h1></header>
+			<article>
+			<p>
+			
+			A stylesheet is associated with at most one Document, which it applies to (unless disabled). A list of CSSStyleSheet objects for a given document can be obtained using the document.styleSheets property. A specific style sheet can also be accessed from its owner object (Node or CSSImportRule), if any.
+
+			
+			</p>
+			<p>
+			
+			A CSSStyleSheet object is created and inserted into the document's styleSheets list automatically by the browser, when a style sheet is loaded for a document. As the document.styleSheets list cannot be modified directly, there's no useful way to create a new CSSStyleSheet object manually
+ 
+			
+			</p>
+			</article>
+			
+			</section>
+			
+			<section class="main-section" id="CSS_Reference">
+			<header ><h1>CSS Reference</h1></header>
+			<article>
+			<p>
+			
+			Use this CSS reference to browse an alphabetical index of all the standard CSS properties, pseudo-classes, pseudo-elements, data types, and at-rules. You can also browse a list of all the CSS selectors organized by type and a list of key CSS concepts. Also included is a brief DOM-CSS / CSSOM reference.
+			
+			</p>
+			<p>Style rule examples</p>
+			
+			<code>
+
+	strong {
+	 color: red;
+		}
+
+	div.menu-bar li:hover > ul {
+	 display: block;
+		}
+
+			</code>
+			
+			</article>
+			
+			</section>
+			
+			<section class="main-section" id="Selector">
+			<header ><h1>Selector</h1></header>
+			<article>
+			<p>
+			
+			CSS selectors define the elements to which a set of CSS rules apply. They are similar to XPath in that they select a set of elements.
+			
+			</p>
+			<p>
+			Some simple selectors:
+			
+			</p>
+			<ul id="inner-list">
+			<li>Type selector</li>
+			<li>Class selector</li>
+			<li>ID selector</li>
+			<li>Universal selector</li>
+			<li>Attribute selector</li>
+			</article>
+			
+			</section>
+			
+			<section class="main-section" id="Aural_Reference">
+			<header ><h1>Aural Reference</h1></header>
+			<article>
+			<p>
+			
+			Aural style sheets use a combination of speech synthesis and sound effects to make the user listen to information, instead of reading information.
+			
+			
+
+			Aural presentation can be used:</p>
+
+			<ul id="inner-list">
+				<li>by blind people</li>
+				<li>to help users learning to read</li>
+				<li>to help users who have reading problems</li>
+				<li>for home entertainment</li>
+				<li>in the car</li>
+				<li>by print-impaired communities</li>				
+			</ul>
+
+			<code>
+	h1, h2, h3, h4 {
+	 voice-family: male;
+	 richness: 80;
+	 cue-before: url("beep.au")
+		}
+			</code>
+			
+
+			</article>
+			
+			</section>
+			<section class="main-section" id="Functions">
+			<header><h1>Functions</h1></header>
+			<article>
+			<p>
+			
+			The filter CSS property applies graphical effects like blur or color shift to an element. Filters are commonly used to adjust the rendering of images, backgrounds, and borders.
+
+			Included in the CSS standard are several functions that achieve predefined effects. You can also reference an SVG filter with a URL to an SVG filter element.
+			
+			</p>
+			<p>
+			
+			With a function, use the following:
+			</p>
+			<code>
+	filter: <filter-function> [<filter-function>]* | none
+			</code>
+			<p>
+			For a reference to an SVG <filter> element, use the following:
+			</p>
+			<code>
+	filter: url(file.svg#filter-element-id) 
+			</code>	
+			</article>
+			
+			</section>
+						
+
+			
+			<section class="main-section" id="Animatable">
+			<header><h1>Animatable</h1></header>
+			<article>
+			<p>
+			
+			Some CSS properties are animatable, meaning that they can be used in animations and transitions.
+
+			Animatable properties can change gradually from one value to another, like size, numbers, percentage and color.
+			
+			</p>
+			<p>
+			
+			<strong>Example: </strong>Animate the background-color from red to blue:
+			</p>
+			<code>
+	<span id="comment">/* Code for old Chrome, Safari and Opera */</span>
+	@-webkit-keyframes mymove {
+	 from {background-color: red;}
+	 to {background-color: blue;}
+	}
+
+	<span id="comment">/* Standard syntax */</span>
+	@keyframes mymove {
+	 from {background-color: red;}
+	 to {background-color: blue;}
+	}
+			</code>
+			</article>
+			
+			</section>
+						
+
+			
+			<section class="main-section" id="Color_Values">
+			<header><h1>Color values</h1></header>
+			<article>
+			<p>
+			
+			The color CSS property sets the foreground color value of an element's text and text decorations, and sets the currentcolor value. currentcolor may be used as an indirect value on other properties and is the default for other color properties, such as border-color.
+			
+			</p>
+			<p>
+			Colors in CSS can be specified by the following methods:
+			</p>
+			<ul id="inner-list">
+				<li>Hexadecimal colors</li>
+				<li>RGB colors</li>
+				<li>RGBA colors</li>
+				<li>HSL colors</li>
+				<li>HSLA colors</li>
+				<li>Predefined/Cross-browser color names</li>
+			</ul>
+			</article>
+			
+			</section>
+						
+
+			<section class="main-section" id="background">
+			<header><h1>Background</h1></header>
+			<article>
+			<p>
+			
+			CSS Backgrounds and Borders is a module of CSS that lets you style elements' backgrounds and borders. Backgrounds can be filled with a color or image, clipped or resized, and otherwise modified. Borders can be decorated with lines or images, and made square or rounded. Additionally, element boxes can be decorated with a shadow.
+			
+			</p>
+			<p>
+			The background property is a shorthand property for:
+			</p>
+			<ul id="inner-list">
+			<li>background-color</li>
+			<li>background-image</li>
+			<li>background-position</li>
+			<li>background-size</li>
+			<li>background-repeat</li>
+			<li>background-origin</li>
+			<li>background-clip</li>
+			<li>background-attachment</li>
+			</ul>
+			</article>
+			
+			</section>
+			
+						
+			
+			<section class="main-section" id="border">
+			<header><h1>Border</h1></header>
+			<article>
+			<p>
+			
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			
+			</p>
+			<p>
+			
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			
+			</p>
+			</article>
+			
+			</section>
+					
+			<section class="main-section" id="CSS_color">
+			<header><h1>CSS color</h1></header>
+			<article>
+			<p>
+			
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			
+			</p>
+			<p>
+			
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				
+			</p>
+			</article>
+			
+			</section>
+						
+			<section class="main-section" id="Font_color">
+			<header><h1>Font color</h1></header>
+			<article>
+			<p>
+			
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			
+			</p>
+			</article>
+			
+			</section>
+						
+			<section class="main-section" id="Display">
+			<header><h1>Display</h1></header>
+			<article>
+			<p>
+			
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			
+			</p>
+			</article>
+			
+			</section>
+			
+		</main>
+	</body>
+</html>
+
+
